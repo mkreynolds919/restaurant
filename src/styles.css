@@ -14,6 +14,12 @@ header div {
     height: 55px;
     font-size: 25px;
     color: rgb(209, 135, 201);
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(161, 252, 202);
+    font-size: 35px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(97, 52, 44);
     
 }
 
