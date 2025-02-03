@@ -1,5 +1,6 @@
 import './styles.css';
 import kikiandbouba from './assets/images/kikiandbouba.png';
+import homepage from './homepage.js';
 
 function cleanPage() {
     const contents = document.querySelectorAll('#content *');
@@ -14,4 +15,6 @@ function cleanPage() {
     mainLogo.id = "main-logo";
     document.body.appendChild(mainLogo);
 })();
+
+homepage();
 
