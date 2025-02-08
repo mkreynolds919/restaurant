@@ -11,9 +11,11 @@ const homepageLoad = function() {
     content.appendChild(splashImg);
 
     const newArrivals = document.createElement("div");
+    newArrivals.id = "new-arrivals";
     content.insertBefore(newArrivals, splashImg);
 
     const reviews = document.createElement("div");
+    reviews.id = "reviews";
     content.appendChild(reviews);
 
    
