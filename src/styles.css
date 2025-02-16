@@ -3,6 +3,11 @@
     src: url(./assets/fonts/Baby\ Gemoy.ttf);
 }
 
+@font-face {
+    font-family: 'Bubble Body';
+    src: url(./assets/fonts/Milkyway\ DEMO.ttf);
+}
+
 body {
     margin: 0;
     font-family: 'Bubble Heading', sans-serif;
