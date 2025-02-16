@@ -18,6 +18,10 @@ const homepageLoad = function() {
     reviews.id = "reviews";
     content.appendChild(reviews);
 
+    const signup = document.createElement("div");
+    signup.id = "sign-up";
+    content.appendChild(signup);
+
    
 }
 
