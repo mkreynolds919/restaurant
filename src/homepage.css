@@ -6,6 +6,13 @@
     margin: 20px;
 }
 
+#content * {
+    font-family: 'Bubble Body';
+    color: rgb(255, 214, 252);
+    text-align: center;
+    font-size: 40px;
+}
+
 img#homepage-splash {
     width: 100%;
     border-radius: 12px;
@@ -23,9 +30,9 @@ img#homepage-splash {
 
 #sign-up {
     width: 100%;
-    display: flex;
     grid-row: 2/3;
     grid-column: 2/3;
     background-color: rgb(207, 151, 237);
     border-radius: 12px;
+    color: white;
 }

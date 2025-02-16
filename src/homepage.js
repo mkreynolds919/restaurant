@@ -12,14 +12,17 @@ const homepageLoad = function() {
 
     const newArrivals = document.createElement("div");
     newArrivals.id = "new-arrivals";
+    newArrivals.textContent = "New Arrivals";
     content.insertBefore(newArrivals, splashImg);
 
     const reviews = document.createElement("div");
     reviews.id = "reviews";
+    reviews.textContent = "Reviews";
     content.appendChild(reviews);
 
     const signup = document.createElement("div");
     signup.id = "sign-up";
+    signup.textContent = "Sign up for notification, special offers, and rewards points!"
     content.appendChild(signup);
 
    
